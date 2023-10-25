@@ -1,8 +1,9 @@
-package CodingChallengePrep;
+package MasterCodingChallengePackage;
 
-public class Anagram {  //Anagram: a word of phrase formed by rearranging the letters of another.
+public class Anagram {
 
     public static void main(String[] args) {
+
         String str1= "listen";                  //define two strings to check for anagram properties
         String str2= "silent";
 

@@ -8,7 +8,7 @@ public class ArmstrongNumber { // also an "Narcissistic Number"
         double result = 0;
 
         while (actualNum != 0){                 //while loop
-            int n = actualNum % 10;
+            int n = actualNum % 10; //
             result = result + Math.pow(n,3);
 
             actualNum = actualNum/10;

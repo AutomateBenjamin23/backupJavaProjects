@@ -1,7 +1,6 @@
 package CommonJavaInterviewQuestions;
 
 import java.util.Arrays;
-
 public class BubbleSortV2 {
         public static void bubbleSort(int[] arr) {
             int n = arr.length;
@@ -21,7 +20,6 @@ public class BubbleSortV2 {
                 n--; // Reduce the size of the unsorted portion of the array
             } while (swapped);
         }
-
         public static void main(String[] args) {
             int[] arr = {64, 34, 25, 12, 22, 11, 90};
             System.out.println("Original array: " + Arrays.toString(arr));
